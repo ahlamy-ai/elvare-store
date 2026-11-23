@@ -21,7 +21,7 @@ document.documentElement.classList.add('elvare-ready');
     if(reset){grid.replaceChildren();shown=0;}
     filtered.slice(shown,shown+PAGE_SIZE).forEach(p=>grid.appendChild(card(p)));
     shown=Math.min(shown+PAGE_SIZE,filtered.length);
-    if(count)count.textContent='Showing '+shown+' of '+filtered.length+' reviewed catalogue entries';
+    if(count)count.textContent='Showing '+shown+' of '+filtered.length+' catalogue products';
     if(more)more.hidden=shown>=filtered.length;
   }
   function applySearch(){
