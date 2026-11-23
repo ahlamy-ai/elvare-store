@@ -41,6 +41,10 @@ Never put supplier API keys, payment secrets or customer payment-card data in th
 
 Matterhorn's public terms describe wholesale-only sales to businesses/self-employed resellers and state restrictive return/complaint conditions. These terms must be reconciled with the consumer obligations in each market before ÉLVARÉ accepts orders.
 
+## Automation implementation plan
+
+See [AUTOMATION-IMPLEMENTATION-PLAN.md](AUTOMATION-IMPLEMENTATION-PLAN.md) for the target low-touch operating model, integration architecture, supplier response checklist and launch gates. It is a plan only; no live automation is active.
+
 ## Supplier under review
 Matterhorn Wholesale (Poland): https://matterhorn-wholesale.com/
 
