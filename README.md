@@ -4,7 +4,9 @@ A responsive editorial storefront for a premium-positioned women's fashion conce
 
 ## Current verified repository state
 - Responsive editorial landing page and customer-information page.
-- Five supplier-catalogue product cards with supplier images and direct supplier product links.
+- Data-driven catalogue renderer reading product records from `catalog.json`.
+- Displays 60 products per batch with a Load More control; supports large catalogues once a supplier feed is imported.
+- Currently contains five researched supplier candidates, not 1,000 imported SKUs.
 - Structured `catalog.json` with public catalogue observations for five candidates.
 - No customer checkout, payment collection, cart, live inventory sync, order processing or supplier API connection.
 - Product stock and shipping to each destination remain unverified. JSON prices are public wholesale list observations, not ÉLVARÉ retail prices.
