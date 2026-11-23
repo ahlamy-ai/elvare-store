@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ahlamy-ai.github.io/elvare-store/sitemap.xml
