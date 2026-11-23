@@ -2,7 +2,7 @@
   "supplier": "Matterhorn Wholesale",
   "catalog_status": "public_listing_research_only",
   "last_reviewed": "2026-11-23",
-  "note": "Supplier product pages and wholesale list prices are public catalogue observations. Do not activate checkout until authenticated live stock, actual reseller cost, shipping, seller eligibility and return terms are confirmed.",
+  "note": "Public supplier product pages and wholesale list prices are observations, not confirmed live inventory or reseller net costs. Do not activate checkout until authenticated stock, actual reseller cost, shipping, seller eligibility, payment approval and return terms are confirmed.",
   "products": [
     {
       "id": "231346",
@@ -60,6 +60,52 @@
       ],
       "image": "https://matterhorn-wholesale.com/db_images/custom1000x1500_1137015.jpg",
       "supplier_url": "https://matterhorn-wholesale.com/daydress_no_231530_prod_id-231530.htm",
+      "live_stock_verified": false,
+      "retail_price": null
+    },
+    {
+      "id": "232333",
+      "name": "Bicotone Feather-Detail Evening Gown",
+      "category": "occasionwear",
+      "wholesale_list_price_eur": 65.9,
+      "listed_sizes": [
+        "36",
+        "38",
+        "40",
+        "44",
+        "46",
+        "48"
+      ],
+      "composition": "93% polyester, 7% spandex",
+      "ean": [
+        "5906501913120",
+        "5906501913137",
+        "5906501913144",
+        "5906501920647",
+        "5906501920654",
+        "5906501920661"
+      ],
+      "image": "https://matterhorn-wholesale.com/db_images/custom1000x1500_1139481.jpg",
+      "supplier_url": "https://matterhorn-wholesale.com/long_dress_no_232333_prod_id-232333.htm",
+      "live_stock_verified": false,
+      "retail_price": null
+    },
+    {
+      "id": "230913",
+      "name": "Italy Moda Embellished Evening Dress",
+      "category": "occasionwear",
+      "wholesale_list_price_eur": 18.9,
+      "listed_sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "composition": "50% viscose, 30% polyester, 20% polyamide",
+      "ean": [
+        "5906694138133",
+        "5906694138140"
+      ],
+      "image": "https://matterhorn-wholesale.com/db_images/custom1000x1500_1135055.jpg",
+      "supplier_url": "https://matterhorn-wholesale.com/evening_dress_no_230913_prod_id-230913.htm",
       "live_stock_verified": false,
       "retail_price": null
     }
