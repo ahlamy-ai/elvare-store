@@ -16,13 +16,13 @@ A responsive editorial storefront for a premium-positioned mixed women's fashion
 ### 1. Payments and order acceptance — CLOSED
 The owner has not completed business registration or obtained written payment-provider approval for this seller, business model and settlement route. A personal bank account or personal wallet is not automatically a merchant checkout account. Do not collect payments, deposits or pre-orders.
 
-Algerian Law 18-05 is relevant to an Algeria-resident seller. Its published requirements include commercial registration, a website hosted in Algeria with a `.com.dz` domain, supplier identity and tax/contact details, and detailed pre-contract disclosures. Confirm the current requirements and any cross-border/export treatment with the competent Algerian authorities or a qualified adviser before opening.
+The intended brand positioning is Bourges, France. This is not proof that a French company has been incorporated or that a registered office exists there. Before launch, establish the operating company in the selected jurisdiction, confirm the owner's residence-related obligations, tax treatment, merchant acquiring eligibility and consumer-law requirements in each sales market. Never publish a fictitious registered office or claim products are Made in France unless their origin is documented.
 
 ### 2. Supplier connection and fulfilment — CLOSED
 Matterhorn's public documentation says its REST API can import products, update stock, check shipping costs, place orders and check order status. It also says the API is not a ready-made connector and requires a custom integration. The supplier begins processing only after it receives payment.
 
 Still required:
-- Written acceptance of the seller's actual Algerian legal/business details.
+- Written acceptance of the operating company's actual legal/business details and country of incorporation.
 - A supplier account and private API key.
 - A secure server-side backend to keep the API key private.
 - Tested product/variant mapping, stock checks, order submission, payment reconciliation, failure handling and tracking updates.
