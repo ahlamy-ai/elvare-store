@@ -10,7 +10,7 @@ document.documentElement.classList.add('elvare-ready');
     const image=/^https:\/\//i.test(p.image||'')?p.image:'';
     const sizes=Array.isArray(p.listed_sizes)?p.listed_sizes.join(', '):'';
     const category=safe(String(p.category||'Selected').replace(/[-_]/g,' ')).toUpperCase();
-    a.innerHTML=(image?'<div class="product-photo"><img loading="lazy" src="'+safe(image)+'" alt="'+safe(p.name)+'"></div>':'<div class="product-photo product-no-image">ÉLVARÉ</div>')+
+    a.innerHTML=(image?'<div class="product-photo"><img loading="lazy" decoding="async" referrerpolicy="no-referrer" src="'+safe(image)+'" alt="'+safe(p.name)+'" onerror="this.onerror=null;this.parentElement.classList.add(\'image-unavailable\');this.remove()"></div>':'<div class="product-photo product-no-image">ÉLVARÉ</div>')+
       '<div class="product-meta"><span>'+category+'</span><span>'+safe(p.brand||'')+'</span></div>'+
       '<h3>'+safe(p.name)+'</h3><p>'+(p.color?'Colour: '+safe(p.color)+' · ':'')+(sizes?'Sizes listed: '+safe(sizes):'Details being reviewed')+'</p>'+
       '<div class="product-foot"><strong>'+(p.retail_price_eur?'€'+Number(p.retail_price_eur).toFixed(2):'Price unavailable')+'</strong><span>ÉLVARÉ EDIT</span></div>'+
