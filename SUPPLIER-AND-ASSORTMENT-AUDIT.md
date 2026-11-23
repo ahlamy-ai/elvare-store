@@ -2,6 +2,11 @@
 Updated: 2026-11-23
 Status: research only — no supplier account, feed, stock reservation, order or payment has been connected.
 
+## Brand and company direction
+- Brand presentation: ÉLVARÉ — French fashion concept, Bourges, France; worldwide customer audience.
+- The Bourges association is brand positioning only until a real operating company and lawful registered office are established there. Do not publish a fictitious company address or imply products are Made in France without origin evidence.
+- Fulfilment model: supplier ships directly to the customer; ÉLVARÉ handles the customer relationship, payment, refunds and order management once legally and operationally enabled.
+
 ## Approved launch direction
 - Assortment: mixed women's fashion — refined everyday, occasionwear, tailoring/co-ords, selected accessories and shoes.
 - Market ambition: worldwide, but checkout must be restricted to destinations individually verified in the supplier's live shipping table and by the payment provider.
