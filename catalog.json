@@ -1,0 +1,67 @@
+{
+  "supplier": "Matterhorn Wholesale",
+  "catalog_status": "public_listing_research_only",
+  "last_reviewed": "2026-11-23",
+  "note": "Supplier product pages and wholesale list prices are public catalogue observations. Do not activate checkout until authenticated live stock, actual reseller cost, shipping, seller eligibility and return terms are confirmed.",
+  "products": [
+    {
+      "id": "231346",
+      "name": "LaBalancia Floral Day Dress",
+      "category": "daywear",
+      "wholesale_list_price_eur": 34.9,
+      "listed_sizes": [
+        "XS/S",
+        "M/L"
+      ],
+      "composition": "95% viscose, 5% elastane",
+      "ean": [
+        "5907378503476",
+        "5907378503483"
+      ],
+      "image": "https://matterhorn-wholesale.com/db_images/custom1000x1500_1136446.jpg",
+      "supplier_url": "https://matterhorn-wholesale.com/daydress_no_231346_prod_id-231346.htm",
+      "live_stock_verified": false,
+      "retail_price": null
+    },
+    {
+      "id": "231235",
+      "name": "Numoco Lace Evening Dress",
+      "category": "occasionwear",
+      "wholesale_list_price_eur": 36.9,
+      "listed_sizes": [
+        "S",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "composition": "70% viscose, 30% polyester",
+      "ean": [
+        "5908023204984",
+        "5908023205004",
+        "5908023205011",
+        "5908023205028"
+      ],
+      "image": "https://matterhorn-wholesale.com/db_images/custom1000x1500_1136097.jpg",
+      "supplier_url": "https://matterhorn-wholesale.com/evening_dress_no_231235_prod_id-231235.htm",
+      "live_stock_verified": false,
+      "retail_price": null
+    },
+    {
+      "id": "231530",
+      "name": "Italy Moda Floral Midi Dress",
+      "category": "daywear",
+      "wholesale_list_price_eur": 22.9,
+      "listed_sizes": [
+        "one-size-fits-all"
+      ],
+      "composition": "90% polyester, 10% elastane",
+      "ean": [
+        "5906694063756"
+      ],
+      "image": "https://matterhorn-wholesale.com/db_images/custom1000x1500_1137015.jpg",
+      "supplier_url": "https://matterhorn-wholesale.com/daydress_no_231530_prod_id-231530.htm",
+      "live_stock_verified": false,
+      "retail_price": null
+    }
+  ]
+}
