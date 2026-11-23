@@ -13,8 +13,8 @@ document.documentElement.classList.add('elvare-ready');
     a.innerHTML=(image?'<div class="product-photo"><img loading="lazy" src="'+safe(image)+'" alt="'+safe(p.name)+'"></div>':'<div class="product-photo product-no-image">ÉLVARÉ</div>')+
       '<div class="product-meta"><span>'+category+'</span><span>'+safe(p.brand||'')+'</span></div>'+
       '<h3>'+safe(p.name)+'</h3><p>'+(p.color?'Colour: '+safe(p.color)+' · ':'')+(sizes?'Sizes listed: '+safe(sizes):'Details being reviewed')+'</p>'+
-      '<div class="product-foot"><span>Price pending verification</span><span>ÉLVARÉ EDIT</span></div>'+
-      '<small class="product-status">Pre-launch selection · no orders accepted</small>';
+      '<div class="product-foot"><strong>'+(p.retail_price_eur?'€'+Number(p.retail_price_eur).toFixed(2):'Price unavailable')+'</strong><span>ÉLVARÉ EDIT</span></div>'+
+      '<small class="product-status">Provisional price · checkout closed · delivery and stock unverified</small>';
     return a;
   }
   function render(reset){
@@ -33,6 +33,7 @@ document.documentElement.classList.add('elvare-ready');
   try{
     const r=await fetch('catalog.json',{cache:'no-store'});if(!r.ok)throw Error('catalog unavailable');
     const data=await r.json();all=Array.isArray(data.products)?data.products:[];
+    try{const pr=await fetch('price-map.json',{cache:'no-store'});if(pr.ok){const map=await pr.json();for(const p of all){const v=map.products?.[p.id];if(v&&Number.isFinite(v.price_eur))p.retail_price_eur=v.price_eur;}}}catch(priceError){}
     if(all.length){filtered=all;render(true);}
   }catch(e){/* The editorial collection remains visible when the supplier feed is unavailable. */}
 })();
