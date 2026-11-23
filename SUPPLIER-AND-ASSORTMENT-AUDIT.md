@@ -7,7 +7,9 @@ Status: research only — no supplier account, feed, stock reservation, order or
 - Market ambition: worldwide, but checkout must be restricted to destinations individually verified in the supplier's live shipping table and by the payment provider.
 - Positioning: premium presentation and premium margin discipline; do not set retail prices until wholesale net cost, shipping, taxes, payment fees and returns exposure are known.
 
-## Supplier under review: Matterhorn Moda sp. z o.o. (Poland)
+## Supplier under review: Matterhorn Wholesale (Poland)
+Important legal-entity update: the current Help Center states that, from 19 August 2025, the wholesale operation is run by Grupa Modne Zakupy Sp. z o.o. Older pages still show Matterhorn Moda sp. z o.o. details. Confirm the exact contracting and invoicing entity in the seller account and on a current pro-forma invoice before paying. Current contact page: https://help.matterhorn-wholesale.com/CMS2/article/contact-details/ .
+
 Official site: https://matterhorn-wholesale.com/
 Integration/feed page: https://matterhorn-wholesale.com/?str=xmloffer
 Official help/terms: https://matterhorn-wholesale.com/?str=help
@@ -18,7 +20,7 @@ Official dropshipping integration guide: https://matterhorn-wholesale.com/top_no
 - Supplier says dropshipping is available: it can ship directly to the end customer in an unmarked parcel without a sales invoice inside.
 - XML/CSV/XLS feeds include product descriptions, wholesale net prices, image links, sizes, stock by size and EAN where available; feeds are updated every two hours.
 - REST API can retrieve products/stocks and submit automated orders, but it requires a custom integration. It is not a turnkey connector for this static GitHub Pages site.
-- Public country examples include Great Britain, USA, Canada, France, Germany, Italy, Spain, Austria, Belgium, Denmark, Portugal and UAE. This is not proof that every country, including Algeria, is served; check each destination in the live shipping selector.
+- The public Europe shipping table currently shows destination-specific rates and estimates for several countries. For a 1 kg parcel it lists France €8.90 / 3–4 days, Spain €6.90 / 4–5 days, Great Britain €6.90 / 5–6 days and Portugal €7.90 / 4 days. These are public table examples only, not a quote for a particular SKU/order or a guarantee of final delivery. Algeria is not listed in that Europe table; this does not prove it is impossible, but it must be confirmed in the authenticated account/API in writing. Source: https://matterhorn-wholesale.com/shopify/index.php?region=Europe&type=shipping_costs .
 
 ### Important commercial blockers — do not ignore
 - Supplier terms say it sells only to business entities and self-employed resellers. Registration and valid invoicing/business details are required. Eligibility for a seller resident in Algeria has not been confirmed.
@@ -26,7 +28,7 @@ Official dropshipping integration guide: https://matterhorn-wholesale.com/top_no
 - Supplier terms say it does not accept ordinary returns; only damaged products may be exchanged, and damage must be reported in writing within 24 hours of parcel receipt. It also says it does not accept returns/complaints from the reseller's customers. This is a major consumer-facing returns risk for fashion and must be resolved in writing before launch.
 - Orders begin processing only after supplier payment is received. "No inventory" does not mean zero working capital: ÉLVARÉ would need money available to pay the supplier before or while the customer payment settles.
 - Supplier says API ordering requires a custom-built integration. Until implemented and tested, fulfilment is manual.
-- No written confirmation yet for Algeria delivery, shipping costs for target countries, return routing, branded packaging, product image usage on ÉLVARÉ's own store, or account eligibility.
+- No written confirmation yet for Algeria delivery, seller eligibility for an Algeria-based individual/business, current contracting entity, per-SKU shipping costs, return routing, branded packaging, product image usage on ÉLVARÉ's own store, or account eligibility.
 
 ## Publicly visible product leads (NOT approved for sale yet)
 These are genuine product/category entries surfaced on Matterhorn's public catalogue. Public pages do not provide a dependable live wholesale price/stock snapshot without supplier login. IDs and sizes below are discovery leads only; recheck all details in the authenticated feed before import.
