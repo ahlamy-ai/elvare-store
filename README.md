@@ -69,3 +69,7 @@ Keep checkout disabled until supplier onboarding, seller identity, merchant proc
 ## Deployment
 
 The repository is configured as a static storefront. A repository commit does not prove that a GitHub Pages deployment is live; verify the published URL and latest deployment separately.
+
+## Operations dashboard
+
+Open [`operations.html`](https://ahlamy-ai.github.io/elvare-store/operations.html) for the current pre-launch control centre. It shows the verified integration snapshot and a launch-readiness checklist. The checklist is saved only in the visitor's browser using local storage; it is not synced to a backend. The page is static and **not access-controlled**—do not enter credentials, API keys, payment information or customer data. It is a coordination aid, not a live admin panel and does not control checkout, orders, suppliers or social publishing.
