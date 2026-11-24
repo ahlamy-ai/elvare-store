@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#24231f">
+<title>ÉLVARÉ — Operations Control Centre</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="ops-body">
+<header class="ops-top">
+  <a class="wordmark" href="index.html">ÉLVARÉ</a>
+  <span>OPERATIONS / PRE-LAUNCH</span>
+  <a href="index.html">VIEW STOREFRONT ↗</a>
+</header>
+<main class="ops-main">
+  <section class="ops-heading">
+    <p class="eyebrow">INTERNAL WORKSPACE · PUBLIC STATIC PAGE</p>
+    <h1>Operations <i>control centre.</i></h1>
+    <p>This is a lightweight coordination dashboard for the current ÉLVARÉ preview. It contains no private customer data, credentials or live transaction controls. Anyone with this URL can view it; checklist ticks are saved only in this browser.</p>
+    <div class="ops-alert"><strong>PRE-LAUNCH MODE</strong><span>Checkout, payments, supplier sync and order processing are disabled. Do not accept orders or payments.</span></div>
+  </section>
+
+  <section class="ops-metrics" aria-label="Verified operational status">
+    <article><span>LIVE SALES</span><strong>0</strong><small>No checkout or order capture</small></article>
+    <article><span>SCHEDULED POSTS</span><strong>0</strong><small>Metricool checked 24 Nov 2026</small></article>
+    <article><span>APPROVED SUPPLIERS</span><strong>0</strong><small>Matterhorn response pending</small></article>
+    <article><span>ACTIVE PAYMENT GATEWAYS</span><strong>0</strong><small>Merchant approval not verified</small></article>
+  </section>
+
+  <section class="ops-section">
+    <div class="ops-section-head"><div><p class="eyebrow">01 / BUSINESS SYSTEMS</p><h2>Integration status</h2></div><span class="ops-muted">Current verified state</span></div>
+    <div class="ops-grid">
+      <article class="ops-card"><div class="ops-card-icon">01</div><div><h3>Storefront</h3><p>GitHub Pages editorial storefront is available as a preview. No checkout, cart or order capture.</p><span class="ops-state state-live">PREVIEW ONLINE</span><a href="https://ahlamy-ai.github.io/elvare-store/" target="_blank" rel="noopener">Open storefront ↗</a></div></article>
+      <article class="ops-card"><div class="ops-card-icon">02</div><div><h3>Supplier · Matterhorn</h3><p>Initial reseller/API questions have been sent. Written approval, product feed and API credentials are not verified.</p><span class="ops-state state-wait">AWAITING REPLY</span><a href="https://matterhorn-wholesale.com/" target="_blank" rel="noopener">Supplier website ↗</a></div></article>
+      <article class="ops-card"><div class="ops-card-icon">03</div><div><h3>Payments & legal seller</h3><p>No merchant gateway is approved for this business model and seller identity. Personal wallets are not merchant approval.</p><span class="ops-state state-block">NOT CONNECTED</span></div></article>
+      <article class="ops-card"><div class="ops-card-icon">04</div><div><h3>Shipping & fulfilment</h3><p>No destination, shipping rate, returns route, supplier order routing or tracking integration is enabled.</p><span class="ops-state state-block">NOT CONNECTED</span></div></article>
+      <article class="ops-card"><div class="ops-card-icon">05</div><div><h3>Social publishing</h3><p>Instagram, TikTok and YouTube are connected to Metricool. No posts are currently scheduled.</p><span class="ops-state state-live">ACCOUNTS CONNECTED</span><a href="https://app.metricool.com/" target="_blank" rel="noopener">Open Metricool ↗</a></div></article>
+      <article class="ops-card"><div class="ops-card-icon">06</div><div><h3>Analytics & support</h3><p>Central analytics, transactional email, customer support automation and alerting are not configured.</p><span class="ops-state state-block">NOT CONNECTED</span></div></article>
+    </div>
+  </section>
+
+  <section class="ops-section">
+    <div class="ops-section-head"><div><p class="eyebrow">02 / CONNECTED CHANNELS</p><h2>Brand destinations</h2></div></div>
+    <div class="ops-links">
+      <a href="https://www.instagram.com/elvare.officia/" target="_blank" rel="noopener"><span>INSTAGRAM</span><strong>@elvare.officia ↗</strong></a>
+      <a href="https://www.tiktok.com/@elvare.officia" target="_blank" rel="noopener"><span>TIKTOK</span><strong>@elvare.officia ↗</strong></a>
+      <a href="https://www.youtube.com/channel/UCgfhttAZEwV1P5OqbanN1RQ" target="_blank" rel="noopener"><span>YOUTUBE</span><strong>ÉLVARÉ channel ↗</strong></a>
+      <a href="https://github.com/ahlamy-ai/elvare-store" target="_blank" rel="noopener"><span>WEBSITE REPOSITORY</span><strong>GitHub ↗</strong></a>
+    </div>
+  </section>
+
+  <section class="ops-section">
+    <div class="ops-section-head"><div><p class="eyebrow">03 / LAUNCH READINESS</p><h2>Required verification checklist</h2></div><span class="ops-muted" id="ops-progress">0 / 10 completed</span></div>
+    <p class="ops-intro">Tick an item only after documentary or technical proof exists. Your checklist is stored locally in this browser and is not shared with the team or synced to a server.</p>
+    <div class="ops-checklist" id="ops-checklist">
+      <label><input type="checkbox" data-key="supplier"><span><strong>Supplier onboarding approved in writing</strong><small>Legal entity, dropshipping permission, API access and reseller requirements.</small></span></label>
+      <label><input type="checkbox" data-key="images"><span><strong>Product data and image rights verified</strong><small>Approved images/descriptions, SKUs, variants and live stock identifiers.</small></span></label>
+      <label><input type="checkbox" data-key="seller"><span><strong>Operating company and seller identity established</strong><small>Registration, address, tax status and customer-facing legal details.</small></span></label>
+      <label><input type="checkbox" data-key="gateway"><span><strong>Merchant payment provider approved</strong><small>Actual seller, dropshipping model, countries and settlement account accepted.</small></span></label>
+      <label><input type="checkbox" data-key="policy"><span><strong>Customer policies reviewed</strong><small>Privacy, terms, delivery, returns, refunds, complaints and contact channels.</small></span></label>
+      <label><input type="checkbox" data-key="costs"><span><strong>SKU-level landed costs and margin verified</strong><small>Supplier price, shipping, tax, FX/payment fees and return-risk allowance.</small></span></label>
+      <label><input type="checkbox" data-key="backend"><span><strong>Private backend and secret storage configured</strong><small>Supplier/payment credentials kept server-side, never in public site code.</small></span></label>
+      <label><input type="checkbox" data-key="stock"><span><strong>Stock and destination shipping checks tested</strong><small>Variant-level availability and current shipping quote validated.</small></span></label>
+      <label><input type="checkbox" data-key="order"><span><strong>End-to-end test order passed</strong><small>Payment, supplier payment, cancellation, refund and tracking all tested.</small></span></label>
+      <label><input type="checkbox" data-key="monitor"><span><strong>Monitoring and exception handling tested</strong><small>Failed sync alerts, duplicate protection and manual support escalation.</small></span></label>
+    </div>
+    <div class="ops-check-actions"><button type="button" id="ops-reset">RESET LOCAL CHECKLIST</button><span id="ops-save-note" aria-live="polite">Saved in this browser only.</span></div>
+  </section>
+
+  <section class="ops-section ops-next">
+    <p class="eyebrow">04 / NEXT EXECUTION ORDER</p>
+    <h2>Build on evidence. <i>Then automate.</i></h2>
+    <ol>
+      <li><strong>Confirm supplier reply.</strong> Obtain written reseller acceptance, API documentation, image permissions, shipping and returns terms.</li>
+      <li><strong>Choose a legal and payment route.</strong> Verify the actual operating seller and an eligible merchant processor before accepting money.</li>
+      <li><strong>Build a separate private backend.</strong> Create secure catalogue, inventory, order and audit services; do not place secrets in GitHub Pages.</li>
+      <li><strong>Connect and test integrations.</strong> Supplier adapter, payment adapter, fulfilment updates, email notifications and monitoring.</li>
+      <li><strong>Open only verified markets.</strong> Enable checkout deliberately after successful end-to-end tests.</li>
+    </ol>
+  </section>
+  <footer class="ops-footer"><a class="wordmark" href="index.html">ÉLVARÉ</a><p>Operations dashboard · Status snapshot: 24 November 2026 · Pre-launch only.</p><small>This page is not access-controlled. Never enter passwords, API keys, payment details or customer personal information here.</small></footer>
+</main>
+<script src="operations.js"></script>
+</body></html>
