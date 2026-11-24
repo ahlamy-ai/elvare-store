@@ -3,9 +3,9 @@
 A responsive editorial storefront for a premium-positioned mixed women's fashion concept.
 
 ## Current verified repository state
-- Responsive editorial storefront and customer-information page.
+- Responsive editorial storefront with English and French versions (`index.html`, `fr.html`) and matching customer-information pages (`policies.html`, `informations.html`).
 - Catalogue renderer reads `catalog.json`, displays up to 60 products per batch and supports search/load more.
-- The current public catalogue feed is intentionally empty until supplier approval and verified product data are available. Earlier imported product records and price estimates are not treated as approved sale listings.
+- The current public catalogue feed is intentionally empty until supplier approval and verified product data are available. The storefront does not display fabricated product listings, sales, reviews or customer counts. Earlier imported product records and price estimates are not treated as approved sale listings.
 - `price-map.json` contains provisional EUR planning estimates only. These are not verified retail prices or guaranteed profit because destination shipping, tax, payment/FX fees, returns exposure and final supplier costs are not confirmed.
 - Product images must not be used commercially until the supplier confirms reuse permission. No complete image-load or image-rights audit has been verified.
 - No customer checkout, cart, payment collection, order capture, live stock sync, supplier API connection, fulfilment automation or tracking integration is active.
