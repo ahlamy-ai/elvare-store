@@ -73,3 +73,14 @@ The repository is configured as a static storefront. A repository commit does no
 ## Operations dashboard
 
 Open [`operations.html`](https://ahlamy-ai.github.io/elvare-store/operations.html) for the current pre-launch control centre. It shows the verified integration snapshot and a launch-readiness checklist. The checklist is saved only in the visitor's browser using local storage; it is not synced to a backend. The page is static and **not access-controlled**—do not enter credentials, API keys, payment information or customer data. It is a coordination aid, not a live admin panel and does not control checkout, orders, suppliers or social publishing.
+
+
+## Netlify / PayPal technical scaffold (24 Nov 2026)
+
+- Added `netlify.toml` to configure the static publish directory and Netlify Functions under `netlify/functions`, with `/api/*` routing.
+- Added `/.netlify/functions/paypal-status` (also routed as `/api/paypal-status`). It reports only whether server-side PayPal environment variables are present; it never returns their values.
+- Added `/.netlify/functions/paypal-create-order` (also routed as `/api/paypal-create-order`) as a deliberately fail-closed placeholder returning HTTP 503. It cannot create a PayPal order or collect money.
+- Required future Netlify environment variable names are `PAYPAL_CLIENT_ID`, `PAYPAL_CLIENT_SECRET`, `PAYPAL_ENV` and `PAYPAL_WEBHOOK_ID`. Do not set `PAYPAL_CHECKOUT_ENABLED=true`; checkout remains disabled.
+- No PayPal credentials have been added to GitHub. No order database, capture endpoint, verified webhook handler, refund flow or end-to-end payment test exists yet.
+- The Netlify deployment must be checked after the GitHub commit before relying on either function URL. GitHub Pages does not run Netlify Functions; this scaffold is intended for the Netlify-hosted copy only.
+- This is infrastructure scaffolding, not an active payment integration. Keep the public storefront in pre-launch mode.
